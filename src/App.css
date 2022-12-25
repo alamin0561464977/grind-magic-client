@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.top-banner {
+  background-image: url('https://static.wixstatic.com/media/7ae7ca_7bfd87a6e1c4440393f915b1926afc4f~mv2.jpeg/v1/fill/w_994,h_525,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7ae7ca_7bfd87a6e1c4440393f915b1926afc4f~mv2.jpeg');
+  min-height: 100vh;
+  min-width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
