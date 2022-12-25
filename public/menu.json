@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Americano Rosted GRED",
+        "price": "12.00",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-1.png"
+    },
+    {
+        "id": 2,
+        "name": "VIRGIN COFFEE GRED",
+        "price": "15.40",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-3.png"
+    },
+    {
+        "id": 3,
+        "name": "CAFÈ AU LAIT Coffee",
+        "price": "14.50",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-5.png"
+    },
+    {
+        "id": 4,
+        "name": "JAPANIS COFFEE GRED",
+        "price": "15.80",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-2.png"
+    },
+    {
+        "id": 5,
+        "name": "JAPANIS COFFEE GRED",
+        "price": "11.00",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-4.png"
+    },
+    {
+        "id": 6,
+        "name": "ESPRESSO RISTRETTO",
+        "price": "18.00",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/menu/menu-2-6.png"
+    }
+]
