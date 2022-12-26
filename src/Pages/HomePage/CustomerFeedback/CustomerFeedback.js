@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsChevronBarDown } from "react-icons/bs";
+import { BsChatLeftQuoteFill } from "react-icons/bs";
 
 
 const CustomerFeedback = () => {
@@ -8,7 +8,7 @@ const CustomerFeedback = () => {
             <div className=' text-center'>
                 <span className=' text-lg border-y-8 rounded-lg border-amber-700 font-bold p-2'>CUSTOMER FEEDBACK</span>
                 <h1 className=' text-4xl font-bold mt-5 '>OUR CUSTOMER REVIEW</h1>
-                <h1 className=' flex justify-center mt-5'><BsChevronBarDown className=' text-4xl flex justify-center' /></h1>
+                <h1 className=' flex justify-center mt-5'><BsChatLeftQuoteFill className=' text-4xl flex justify-center' /></h1>
             </div>
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
