@@ -5,7 +5,6 @@ import { BsFillSuitHeartFill } from "react-icons/bs";
 import { BsFillEyeFill } from "react-icons/bs";
 
 
-
 const PopularProducts = () => {
     const [popularProducts, setPopularProducts] = useState([]);
     useEffect(() => {

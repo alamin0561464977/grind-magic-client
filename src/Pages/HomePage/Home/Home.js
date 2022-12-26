@@ -1,6 +1,7 @@
 import React from 'react';
 import CoffeeMachine from '../CoffeeMachine/CoffeeMachine';
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu';
+import CustomerFeedback from '../CustomerFeedback/CustomerFeedback';
 import OurHistoryHome from '../OurHistoryHome/OurHistoryHome';
 import PopularProducts from '../PopularProducts/PopularProducts';
 import Top3CardHome from '../Top3CardHome/Top3CardHome';
@@ -15,6 +16,7 @@ const Home = () => {
             <CoffeeMenu></CoffeeMenu>
             <CoffeeMachine></CoffeeMachine>
             <PopularProducts></PopularProducts>
+            <CustomerFeedback></CustomerFeedback>
         </div>
     );
 };
