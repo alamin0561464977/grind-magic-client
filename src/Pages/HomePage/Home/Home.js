@@ -2,6 +2,7 @@ import React from 'react';
 import CoffeeMachine from '../CoffeeMachine/CoffeeMachine';
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu';
 import CustomerFeedback from '../CustomerFeedback/CustomerFeedback';
+import FromOurBlogs from '../FromOurBlogs/FromOurBlogs';
 import OurHistoryHome from '../OurHistoryHome/OurHistoryHome';
 import PopularProducts from '../PopularProducts/PopularProducts';
 import Reservation from '../Reservation/Reservation';
@@ -19,6 +20,7 @@ const Home = () => {
             <PopularProducts></PopularProducts>
             <CustomerFeedback></CustomerFeedback>
             <Reservation></Reservation>
+            <FromOurBlogs></FromOurBlogs>
         </div>
     );
 };
