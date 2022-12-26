@@ -4,6 +4,7 @@ import CoffeeMenu from '../CoffeeMenu/CoffeeMenu';
 import CustomerFeedback from '../CustomerFeedback/CustomerFeedback';
 import OurHistoryHome from '../OurHistoryHome/OurHistoryHome';
 import PopularProducts from '../PopularProducts/PopularProducts';
+import Reservation from '../Reservation/Reservation';
 import Top3CardHome from '../Top3CardHome/Top3CardHome';
 import TopBanner from '../TopBanner/TopBanner';
 
@@ -17,6 +18,7 @@ const Home = () => {
             <CoffeeMachine></CoffeeMachine>
             <PopularProducts></PopularProducts>
             <CustomerFeedback></CustomerFeedback>
+            <Reservation></Reservation>
         </div>
     );
 };
