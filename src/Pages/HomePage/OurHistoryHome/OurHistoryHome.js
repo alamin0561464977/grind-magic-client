@@ -15,7 +15,7 @@ const OurHistoryHome = () => {
                     <div className="mb-10 lg:max-w-lg lg:pr-5 ml-10 lg:mb-0">
                         <div className="max-w-xl mb-6">
                             <div>
-                                <p className="inline-block px-3 py-px mb-4 text-lgh font-semibold tracking-wider bg-amber-700 uppercase rounded bg-teal-accent-400">
+                                <p className="inline-block px-3 py-px mb-4 text-lgh font-semibold tracking-wider border-y-8 rounded-lg border-amber-700 uppercase">
                                     OUR HISTORY
                                 </p>
                             </div>

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "BRAZIL COFFEE GRED",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/pp-2.png",
+        "price": "325.00",
+        "reding": "4.5",
+        "oPrice": "375.00"
+    },
+    {
+        "id": 2,
+        "name": "VICARAGUA COFFEE BEANS",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/pp-2.png",
+        "price": "355.00",
+        "reding": "4.5",
+        "oPrice": "388.00"
+    },
+    {
+        "id": 3,
+        "name": "AMERICANO COFFEE",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/products/pp-2.png",
+        "price": "343.00",
+        "reding": "4.5",
+        "oPrice": "365.00"
+    }
+]

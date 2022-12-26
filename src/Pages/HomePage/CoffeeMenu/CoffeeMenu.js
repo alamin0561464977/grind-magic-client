@@ -10,8 +10,8 @@ const CoffeeMenu = () => {
     return (
         <div className=' py-8'>
             <div className=' text-center mb-5'>
-                <samp className=' p-2 rounded text-xl font-bold bg-amber-700'>MENU</samp>
-                <h1 className=' p-2 rounded text-4xl font-bold'>CAFENA POPULAR MENU</h1>
+                <samp className=' p-2 text-xl font-bold border-y-8 rounded-lg border-amber-700'>MENU</samp>
+                <h1 className=' p-2 mt-3 rounded text-4xl font-bold'>CAFENA POPULAR MENU</h1>
             </div>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4">
                 <div className="grid gap-8 row-gap-5 md:grid-cols-2">
