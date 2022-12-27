@@ -8,7 +8,7 @@ import { FaFacebookSquare, FaTwitterSquare, FaYoutubeSquare, FaInstagram } from 
 
 const Footer = () => {
     return (
-        <div className='Footer'>
+        <div className='Footer text-white'>
             <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
                     <div className="sm:col-span-2">
@@ -35,10 +35,18 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className=' flex gap-4 text-4xl justify-end pt-16'>
-                        <FaFacebookSquare className=' hover:cursor-pointer hover:text-amber-700' />
-                        <FaTwitterSquare className=' hover:cursor-pointer hover:text-amber-700' />
-                        <FaYoutubeSquare className=' hover:cursor-pointer hover:text-amber-700' />
-                        <FaInstagram className=' hover:cursor-pointer hover:text-amber-700' />
+                        <a href="https://www.facebook.com/profile.php?id=100082330179416">
+                            <FaFacebookSquare className=' hover:cursor-pointer hover:text-amber-700' />
+                        </a>
+                        <a href="https://twitter.com/home">
+                            <FaTwitterSquare className=' hover:cursor-pointer hover:text-amber-700' />
+                        </a>
+                        <a href="https://www.youtube.com/@ProgrammingHeroCommunity">
+                            <FaYoutubeSquare className=' hover:cursor-pointer hover:text-amber-700' />
+                        </a>
+                        <a href="https://www.instagram.com/accounts/login/">
+                            <FaInstagram className=' hover:cursor-pointer hover:text-amber-700' />
+                        </a>
                     </div>
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">

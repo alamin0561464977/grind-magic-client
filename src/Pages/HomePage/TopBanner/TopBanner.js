@@ -21,18 +21,23 @@ const TopBanner = () => {
                     <button className="btn btn-outline btn-accent ml-5">Read More</button>
                 </div>
                 <div className=' mt-8 flex gap-6'>
-                    <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
-                        <FaFacebook />
-                        FACEBOOK
-                    </samp>
-                    <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
-                        <FaTwitter />
-                        TWITTER
-                    </samp>
-                    <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
-                        <FaYoutube />
-                        YOUTUBE
-                    </samp>
+                    <a href="https://www.facebook.com/profile.php?id=100082330179416">
+                        <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
+                            <FaFacebook />
+                            FACEBOOK
+                        </samp>
+                    </a>
+                    <a href="https://twitter.com/home">
+                        <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
+                            <FaTwitter />
+                            TWITTER
+                        </samp>
+                    </a>
+                    <a href="https://www.youtube.com/@ProgrammingHeroCommunity">
+                        <samp className=' flex gap-2 items-center text-lg font-bold hover:cursor-pointer'>
+                            <FaYoutube />
+                            YOUTUBE
+                        </samp></a>
                 </div>
             </div>
         </div>

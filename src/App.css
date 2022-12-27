@@ -13,3 +13,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.AboutTopBanner {
+  background-image: url('https://img.freepik.com/free-photo/coffee-beans-dark-background-top-view-coffee-concept_1220-6299.jpg');
+  min-height: 300px;
+  min-width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

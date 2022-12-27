@@ -2,7 +2,7 @@ import React from 'react';
 import CoffeeMachine from '../CoffeeMachine/CoffeeMachine';
 import CoffeeMenu from '../CoffeeMenu/CoffeeMenu';
 import CustomerFeedback from '../CustomerFeedback/CustomerFeedback';
-import Footer from '../Footer/Footer';
+import Footer from '../../Share/Footer/Footer';
 import FromOurBlogs from '../FromOurBlogs/FromOurBlogs';
 import OurHistoryHome from '../OurHistoryHome/OurHistoryHome';
 import PopularProducts from '../PopularProducts/PopularProducts';
