@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import About from "../Pages/About/About/About";
 import GrindMagicMenu from "../Pages/GrindMagicMenu/GrindMagicMenu/GrindMagicMenu";
 import Home from "../Pages/HomePage/Home/Home";
+import Reservation from "../Pages/Reservation/Reservation";
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
             {
                 path: '/grind-magic-menu',
                 element: <GrindMagicMenu></GrindMagicMenu>
+            },
+            {
+                path: '/reservation',
+                element: <Reservation></Reservation>
             }
         ]
     }

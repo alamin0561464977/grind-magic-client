@@ -55,10 +55,10 @@ const Footer = () => {
                         <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>HOME</h1></Link>
                         <Link to='/about'><h1 className=' hover:cursor-pointer hover:text-amber-700'>ABOUT</h1></Link>
                         <Link to='/grind-magic-menu'><h1 className=' hover:cursor-pointer hover:text-amber-700'>MENU</h1></Link>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>RESERVATION</h1>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>PAGES</h1>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>SHOP</h1>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>BLOGS</h1>
+                        <Link to='/reservation'><h1 className=' hover:cursor-pointer hover:text-amber-700'>RESERVATION</h1></Link>
+                        <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>PAGES</h1></Link>
+                        <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>SHOP</h1></Link>
+                        <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>BLOGS</h1></Link>
                     </div>
                     <p className="text-sm">
                         © Copyright 2020 Lorem Inc. All rights reserved.

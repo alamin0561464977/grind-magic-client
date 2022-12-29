@@ -6,7 +6,7 @@ const HomeNavbar = () => {
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/about'>ABOUT</Link></li>
         <li><Link to='/grind-magic-menu'>MENU</Link></li>
-        <li><a>RESERVATION</a></li>
+        <li><Link to='/reservation'>RESERVATION</Link></li>
     </>
     return (
         <div>
