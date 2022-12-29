@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import About from "../Pages/About/About/About";
+import ContactUs from "../Pages/ContactUs/ContactUs";
 import GrindMagicMenu from "../Pages/GrindMagicMenu/GrindMagicMenu/GrindMagicMenu";
 import Home from "../Pages/HomePage/Home/Home";
 import Reservation from "../Pages/Reservation/Reservation";
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
             {
                 path: '/reservation',
                 element: <Reservation></Reservation>
+            },
+            {
+                path: '/contact-us',
+                element: <ContactUs></ContactUs>
             }
         ]
     }

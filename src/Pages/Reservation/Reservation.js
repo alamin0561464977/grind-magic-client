@@ -22,7 +22,7 @@ const Reservation = () => {
                     </div>
                 </div>
                 <div className=' text-center'>
-                    <input type="button" value='SUBMIT YOU REQUEST' className=" rounded-lg mt-5 bg-amber-700 text-white font-bold text-xl hover:bg-amber-600 p-5 border border-blue-300 w-1/2" />
+                    <input type="button" value='SUBMIT YOU REQUEST' className=" rounded-lg mt-5 bg-amber-700 text-white font-bold text-xl hover:bg-amber-600 p-5 border border-blue-300 w-full lg:w-1/2" />
                 </div>
             </div>
         </div>

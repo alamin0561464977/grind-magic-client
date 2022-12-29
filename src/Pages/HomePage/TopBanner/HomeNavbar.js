@@ -50,7 +50,7 @@ const HomeNavbar = () => {
                                 <li><a>Submenu 2</a></li>
                             </ul>
                         </li>
-                        <li><a>CONTACT</a></li>
+                        <li><Link to='/contact-us'>CONTACT</Link></li>
                     </ul>
                     <ul className="menu grid grid-cols-3 gap-3 col-span-2 menu-horizontal flex-none font-bold text-lg px-2">
                         <button className="btn btn-ghost btn-circle">

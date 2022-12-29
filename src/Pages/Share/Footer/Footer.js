@@ -59,6 +59,7 @@ const Footer = () => {
                         <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>PAGES</h1></Link>
                         <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>SHOP</h1></Link>
                         <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>BLOGS</h1></Link>
+                        <Link to='/contact-us'><h1 className=' hover:cursor-pointer hover:text-amber-700'>CONTACT</h1></Link>
                     </div>
                     <p className="text-sm">
                         © Copyright 2020 Lorem Inc. All rights reserved.

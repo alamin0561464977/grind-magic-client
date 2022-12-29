@@ -47,3 +47,11 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.contact-us-bg-img {
+  background-image: url('https://xpressrow.com/html/cafena/cafena/assets/images/shape/hero-shape-2-1.png');
+  min-height: 100%;
+  min-width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
