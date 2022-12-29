@@ -47,11 +47,11 @@ const ContactUs = () => {
                 </div>
                 <div className='p-12 text-center'>
                     <div className=' grid grid-cols-1 lg:grid-cols-2 gap-5'>
-                        <input type="text" placeholder="Type Your Name:" className=" p-4 border border-spacing-2 border-slate-500 input-bordered w-full" />
-                        <input type="text" placeholder="Type Your Email:" className=" p-4 border border-spacing-2 border-slate-500 input-bordered w-full" />
+                        <input type="text" placeholder="Type Your Name:" className=" p-4 rounded border border-spacing-2 border-slate-500 input-bordered w-full" />
+                        <input type="text" placeholder="Type Your Email:" className=" p-4 rounded border border-spacing-2 border-slate-500 input-bordered w-full" />
                     </div>
-                    <input type="text" placeholder="Type Your Subject:" className=" p-4 my-5 border border-spacing-2 border-slate-500 input-bordered w-full" />
-                    <textarea className="textarea textarea-bordered w-full h-40" placeholder="Type Your Message"></textarea>
+                    <input type="text" placeholder="Type Your Subject:" className=" p-4 rounded my-5 border border-spacing-2 border-slate-500 input-bordered w-full" />
+                    <textarea className="textarea textarea-bordered w-full h-40 rounded" placeholder="Type Your Message"></textarea>
                     <input type="button" value='SEND MASSAGE' className=" p-4 my-5 bg-amber-700 text-white font-bold text-2xl rounded-lg hover:bg-amber-600  input-bordered w-full lg:w-1/3 mx-auto" />
                 </div>
             </div>

@@ -37,8 +37,12 @@ const Navbar = () => {
                                 PAGES
                             </a>
                             <ul className="p-2 bg-white text-black">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><Link to='/'>Blogs</Link></li>
+                                <li><Link to='/'>Blog Details</Link></li>
+                                <li><Link to='/'>Chefs</Link></li>
+                                <li><Link to='/'>FAQ</Link></li>
+                                <li><Link to='/'>Story</Link></li>
+                                <li><Link to='/gallery'>Gallery</Link></li>
                             </ul>
                         </li>
                         <li tabIndex={0}>
