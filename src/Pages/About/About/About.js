@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutGrindMagic from '../AboutGrindMagic/AboutGrindMagic';
 import AboutTopBanner from '../AboutTopBanner/AboutTopBanner';
+import OurChef from '../OurChef/OurChef';
 import TryTheBastCoffee from '../TryTheBestCoffee/TryTheBastCoffee';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 
@@ -11,6 +12,7 @@ const About = () => {
             <AboutGrindMagic></AboutGrindMagic>
             <WhyChooseUs></WhyChooseUs>
             <TryTheBastCoffee></TryTheBastCoffee>
+            <OurChef></OurChef>
         </div>
     );
 };

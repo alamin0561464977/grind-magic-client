@@ -21,3 +21,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.OurChefBG1 {
+  background-image: url('https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurChefBG2 {
+  background-image: url('https://xpressrow.com/html/cafena/cafena/assets/images/team/team-2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurChefBG3 {
+  background-image: url('https://img.freepik.com/premium-photo/young-barista-black-apron-smiles-as-he-brings-cup-coffee-girl-counter-service-cafe_195549-5077.jpg?w=2000');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
