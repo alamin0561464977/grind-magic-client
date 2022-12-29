@@ -5,6 +5,7 @@ import {
     BsGeoAltFill
 } from "react-icons/bs";
 import { FaFacebookSquare, FaTwitterSquare, FaYoutubeSquare, FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -51,9 +52,9 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
                     <div className=' flex gap-5 text-lg font-bold'>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>HOME</h1>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>ABOUT</h1>
-                        <h1 className=' hover:cursor-pointer hover:text-amber-700'>MENU</h1>
+                        <Link to='/'><h1 className=' hover:cursor-pointer hover:text-amber-700'>HOME</h1></Link>
+                        <Link to='/about'><h1 className=' hover:cursor-pointer hover:text-amber-700'>ABOUT</h1></Link>
+                        <Link to='/grind-magic-menu'><h1 className=' hover:cursor-pointer hover:text-amber-700'>MENU</h1></Link>
                         <h1 className=' hover:cursor-pointer hover:text-amber-700'>RESERVATION</h1>
                         <h1 className=' hover:cursor-pointer hover:text-amber-700'>PAGES</h1>
                         <h1 className=' hover:cursor-pointer hover:text-amber-700'>SHOP</h1>

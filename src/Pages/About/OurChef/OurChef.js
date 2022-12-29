@@ -13,9 +13,9 @@ const OurChef = () => {
                     <div className='OurChefBG1 h-80 text-right text-white flex justify-end m-8 rounded-r-[50px] rounded-t-[50px] hover:rounded-tl-none hover:rounded-bl-[50px]'>
                         <div className=' text-4xl font-bold text-right my-auto bg-amber-500 p-2 rounded-l-lg'>
                             <FaFacebookSquare className=' my-3 hover:text-gray-100 hover:cursor-pointer' />
-                            <FaTwitterSquare className=' my-3 hover:text-slate-100' />
-                            <FaLinkedin className=' my-3 hover:text-slate-100' />
-                            <FaPinterest className=' my-3 hover:text-slate-100' />
+                            <FaTwitterSquare className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaLinkedin className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaPinterest className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
                         </div>
                     </div>
                     <div className=' m-8'>
@@ -27,9 +27,9 @@ const OurChef = () => {
                     <div className='OurChefBG2 h-80 text-right text-white flex justify-end m-8 rounded-r-[50px] rounded-t-[50px] hover:rounded-tl-none hover:rounded-bl-[50px]'>
                         <div className=' text-4xl font-bold text-right my-auto bg-amber-500 p-2 rounded-l-lg'>
                             <FaFacebookSquare className=' my-3 hover:text-gray-100 hover:cursor-pointer' />
-                            <FaTwitterSquare className=' my-3 hover:text-slate-100' />
-                            <FaLinkedin className=' my-3 hover:text-slate-100' />
-                            <FaPinterest className=' my-3 hover:text-slate-100' />
+                            <FaTwitterSquare className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaLinkedin className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaPinterest className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
                         </div>
                     </div>
                     <div className=' m-8'>
@@ -41,9 +41,9 @@ const OurChef = () => {
                     <div className='OurChefBG3 h-80 text-right text-white flex justify-end m-8 rounded-r-[50px] rounded-t-[50px] hover:rounded-tl-none hover:rounded-bl-[50px]'>
                         <div className=' text-4xl font-bold text-right my-auto bg-amber-500 p-2 rounded-l-lg'>
                             <FaFacebookSquare className=' my-3 hover:text-gray-100 hover:cursor-pointer' />
-                            <FaTwitterSquare className=' my-3 hover:text-slate-100' />
-                            <FaLinkedin className=' my-3 hover:text-slate-100' />
-                            <FaPinterest className=' my-3 hover:text-slate-100' />
+                            <FaTwitterSquare className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaLinkedin className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
+                            <FaPinterest className=' my-3 hover:text-slate-100 hover:cursor-pointer' />
                         </div>
                     </div>
                     <div className=' m-8'>

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const navItems = <>
-        <li><a>HOME</a></li>
-        <li><a>ABOUT</a></li>
-        <li><a>MENU</a></li>
+        <li><Link to='/'>HOME</Link></li>
+        <li><Link to='/about'>ABOUT</Link></li>
+        <li><Link to='/grind-magic-menu'>MENU</Link></li>
         <li><a>RESERVATION</a></li>
     </>
     return (
