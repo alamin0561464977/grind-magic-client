@@ -8,6 +8,7 @@ import Gallery from "../Pages/Gallery/Gallery";
 import GrindMagicMenu from "../Pages/GrindMagicMenu/GrindMagicMenu/GrindMagicMenu";
 import Home from "../Pages/HomePage/Home/Home";
 import Reservation from "../Pages/Reservation/Reservation";
+import Story from "../Pages/Story/Story";
 
 export const router = createBrowserRouter([
     {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
             {
                 path: '/chefs',
                 element: <Chefs></Chefs>
+            },
+            {
+                path: '/story',
+                element: <Story></Story>
             }
         ]
     }
