@@ -40,6 +40,24 @@
   background-size: cover;
 }
 
+.OurChefBG4 {
+  background-image: url('https://thumbs.dreamstime.com/b/happy-female-barista-standing-coffee-machine-holding-mug-female-cafe-worker-taking-break-happy-female-barista-standing-199940218.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurChefBG5 {
+  background-image: url('https://cdn9.dissolve.com/p/D929_23_077/D929_23_077_1200.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OurChefBG6 {
+  background-image: url('https://ae01.alicdn.com/kf/HTB1flCCrFmWBuNjSspdq6zugXXa5/Summer-Design-Chef-Jecket-Restaurant-Hotel-Coffee-Bar-Workwear-Kitchen-Short-Sleeve-Chef-Uniform-Cook-Top.jpg_Q90.jpg_.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .reservation-bg-img {
   background-image: url('https://xpressrow.com/html/cafena/cafena/assets/images/shape/hero-shape-2-2.png');
   min-height: 100%;
