@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/story/story-1.jpeg",
+        "title": "Future Goal With Coffee",
+        "description": "Donec et nibh maximus, congue est eu, mattis Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum."
+    },
+    {
+        "id": 2,
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/story/story-2.jpeg",
+        "title": "Future Goal With Coffee",
+        "description": "Donec et nibh maximus, congue est eu, mattis Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum."
+    },
+    {
+        "id": 3,
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/story/story-3.jpeg",
+        "title": "Future Goal With Coffee",
+        "description": "Donec et nibh maximus, congue est eu, mattis Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum."
+    },
+    {
+        "id": 4,
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/story/story-4.jpeg",
+        "title": "Future Goal With Coffee",
+        "description": "Donec et nibh maximus, congue est eu, mattis Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum."
+    }
+]

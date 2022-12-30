@@ -1,4 +1,6 @@
 import React from 'react';
+import NewsBlogs from './NewsBlogs';
+import NewStory from './NewStory';
 import WhoWeAre from './WhoWeAre';
 
 const Story = () => {
@@ -9,6 +11,8 @@ const Story = () => {
                 <p className=' text-lg text-amber-700'>HOME / Story</p>
             </div>
             <WhoWeAre></WhoWeAre>
+            <NewStory></NewStory>
+            <NewsBlogs></NewsBlogs>
         </div>
     );
 };
