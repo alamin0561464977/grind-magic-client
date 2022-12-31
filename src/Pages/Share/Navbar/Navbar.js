@@ -37,7 +37,7 @@ const Navbar = () => {
                                 PAGES
                             </a>
                             <ul className="p-2 bg-white text-black">
-                                <li><Link to='/'>Blogs</Link></li>
+                                <li><Link to='/blogs'>Blogs</Link></li>
                                 <li><Link to='/'>Blog Details</Link></li>
                                 <li><Link to='/chefs'>Chefs</Link></li>
                                 <li><Link to='/faq'>FAQ</Link></li>

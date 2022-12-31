@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "IDEAL COCKTAILS FROM OUR BARMEN FOR PEFECT MOOD",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/blog/blog-post-1.jpeg",
+        "paragraph": "Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.",
+        "comment": 30,
+        "userName": "Al Amin",
+        "userImage": "https://xpressrow.com/html/cafena/cafena/assets/images/author/blog-author-1.png",
+        "date": "12/31/2022"
+    },
+    {
+        "id": 1,
+        "title": "WHISPER TO US ABOUT YOUR FEELINGS, AND WE WILL PREPARE",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/blog/blog-post-2.jpeg",
+        "paragraph": "Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.",
+        "comment": 30,
+        "userName": "Al Amin",
+        "userImage": "https://xpressrow.com/html/cafena/cafena/assets/images/author/blog-author-1.png",
+        "date": "12/31/2022"
+    },
+    {
+        "id": 1,
+        "title": "BUILD A COOL MORNIG WITH CAFENA COFFEE",
+        "image": "https://xpressrow.com/html/cafena/cafena/assets/images/blog/blog-post-3.jpeg",
+        "paragraph": "Ronec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis fringilla. Morbi vestibulum id tellus mmodo mattis. Aliquam erat volutpat. Aenean accumsan id mi nec semper. Lorem ipsum.",
+        "comment": 30,
+        "userName": "Al Amin",
+        "userImage": "https://xpressrow.com/html/cafena/cafena/assets/images/author/blog-author-1.png",
+        "date": "12/31/2022"
+    }
+]
