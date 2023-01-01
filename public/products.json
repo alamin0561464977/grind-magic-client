@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "https://m.media-amazon.com/images/I/81lojChubvL._AC_SX679_.jpg",
+        "name": "JAPANIS COFFEE GRED",
+        "price": "320.00",
+        "priceP": "325.50",
+        "category": "CREUSET COCOTTE"
+    },
+    {
+        "id": 2,
+        "image": "https://m.media-amazon.com/images/I/81wSDv0+kEL._AC_SX679_.jpg",
+        "name": "CAFFÈ LATTE",
+        "price": "325.00",
+        "priceP": "348",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 3,
+        "image": "https://m.media-amazon.com/images/I/A11T4nfCR+L._AC_SY300_SX300_.jpg",
+        "name": "BRAZIL COFFEE GRED",
+        "price": "300.00",
+        "priceP": "310.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 4,
+        "image": "https://m.media-amazon.com/images/I/71KEGhEN8ML._AC_SX679_.jpg",
+        "name": "CAFÈ AU LAIT",
+        "price": "320.00",
+        "priceP": "325.30",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 5,
+        "image": "https://m.media-amazon.com/images/I/71ESqacRCML._AC_SX679_.jpg",
+        "name": "ESPRESSO MACCHIATO",
+        "price": "315.00",
+        "priceP": "320.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 6,
+        "image": "https://m.media-amazon.com/images/I/81P334JwUzL._AC_SX679_.jpg",
+        "name": "IRISH COFFEE",
+        "price": "330.00",
+        "priceP": "335.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 7,
+        "image": "https://m.media-amazon.com/images/I/61tVY8Ek0HL._AC_SX679_.jpg",
+        "name": "LATTE MACCHIATO",
+        "price": "312.00",
+        "priceP": "315.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 8,
+        "image": "https://m.media-amazon.com/images/I/71s2Buxv+5L._AC_SX679_.jpg",
+        "name": "ESPRESSO RISTRETTO",
+        "price": "305.00",
+        "priceP": "310.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 9,
+        "image": "https://m.media-amazon.com/images/I/51FlVuKTZtL._AC_SX679_.jpg",
+        "name": "ESPRESSO LUNGO",
+        "price": "350.00",
+        "priceP": "355.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 10,
+        "image": "https://m.media-amazon.com/images/I/81WSru16H2L._AC_SX679_.jpg",
+        "name": "VIRGIN COFFEE GRED",
+        "price": "340.00",
+        "priceP": "345.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 11,
+        "image": "https://m.media-amazon.com/images/I/71LjkpQH7UL._AC_SY741_.jpg",
+        "name": "AMERICANO COFFEE",
+        "price": "280.00",
+        "priceP": "290.00",
+        "category": "ROSTED COFFEE"
+    },
+    {
+        "id": 12,
+        "image": "https://m.media-amazon.com/images/I/71kmXNhvR6L._AC_SX679_.jpg",
+        "name": "VICARAGUA COFFEE BEANS",
+        "price": "250.00",
+        "priceP": "255.00",
+        "category": "ROSTED COFFEE"
+    }
+]

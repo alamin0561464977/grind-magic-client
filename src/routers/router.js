@@ -9,6 +9,7 @@ import Gallery from "../Pages/Gallery/Gallery";
 import GrindMagicMenu from "../Pages/GrindMagicMenu/GrindMagicMenu/GrindMagicMenu";
 import Home from "../Pages/HomePage/Home/Home";
 import Reservation from "../Pages/Reservation/Reservation";
+import Products from "../Pages/Shop/Products/Products";
 import Story from "../Pages/Story/Story";
 
 export const router = createBrowserRouter([
@@ -55,7 +56,11 @@ export const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <Blogs></Blogs>
-            }
+            },
+            {
+                path: '/products',
+                element: <Products></Products>
+            },
         ]
     }
 ])

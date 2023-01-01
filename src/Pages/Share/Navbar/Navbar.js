@@ -50,8 +50,10 @@ const Navbar = () => {
                                 SHOP
                             </a>
                             <ul className="p-2 bg-white text-black">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
+                                <li><Link to='/products'>Products</Link></li>
+                                <li><Link to='/product-details'>Product Details</Link></li>
+                                <li><Link to='/shop-card'>Shop Card</Link></li>
+                                <li><Link to='/shop-checkout'>Shop Checkout</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/contact-us'>CONTACT</Link></li>
