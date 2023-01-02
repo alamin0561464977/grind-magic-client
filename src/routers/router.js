@@ -3,6 +3,7 @@ import MainLayout from "../Layout/MainLayout";
 import About from "../Pages/About/About/About";
 import Blogs from "../Pages/Blogs/Blogs";
 import Chefs from "../Pages/Chafs/Chefs";
+import Checkout from "../Pages/Checkout/Checkout/Checkout";
 import ContactUs from "../Pages/ContactUs/ContactUs";
 import FAQ from "../Pages/FAQ/FAQ";
 import Gallery from "../Pages/Gallery/Gallery";
@@ -60,6 +61,10 @@ export const router = createBrowserRouter([
             {
                 path: '/products',
                 element: <Products></Products>
+            },
+            {
+                path: '/shop-checkout',
+                element: <Checkout></Checkout>
             },
         ]
     }

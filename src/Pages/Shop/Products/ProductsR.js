@@ -92,6 +92,19 @@ const ProductsR = () => {
                     </div>
                 </div>
             </div>
+            <div className=' border border-blue-300 py-12 rounded-lg p-8 mt-8'>
+                <h1 className=' text-3xl font-bold mb-5'>Popular Tag</h1>
+                <div className=' flex gap-5 flex-wrap'>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Web Design</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Brand</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Ui/Ux</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>NNC</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Design</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Construction</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Web Design</h1>
+                    <h1 className=' p-2 border border-slate-400  hover:border-black rounded-lg hover:cursor-pointer text-lg font-bold'>Design</h1>
+                </div>
+            </div>
         </div>
     );
 };

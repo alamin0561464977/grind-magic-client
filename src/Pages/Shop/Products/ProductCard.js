@@ -6,15 +6,15 @@ import { BsFillEyeFill } from "react-icons/bs";
 
 const ProductCard = ({ product }) => {
     return (
-        <div className=' h-[450px] border rounded'>
+        <div className=' h-[450px] border rounded shadow-xl'>
             <div className=' text-center flex gap-3 justify-center mt-3'>
-                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-amber-700'>
+                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-slate-300'>
                     <BsBasket2Fill className=' mx-auto' />
                 </h1>
-                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-amber-700'>
+                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-slate-300'>
                     <BsFillSuitHeartFill className=' mx-auto' />
                 </h1>
-                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-amber-700'>
+                <h1 className=' text-xl w-14 font-bold border py-3 rounded hover:cursor-pointer hover:bg-slate-300'>
                     <BsFillEyeFill className=' mx-auto' />
                 </h1>
             </div>
@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
                     </div>
                 </div>
                 <h1 className=' text-xl font-bold'>{product.name}</h1>
-                <h1 className=' text-lg font-bold'>PRICE- <samp className=' text-amber-700 text-2xl'>${product.price}</samp> / ${product.oPrice}</h1>
+                <h1 className=' text-lg font-bold'>PRICE- <samp className=' text-amber-700 text-2xl'>${product.price}</samp> / ${product.priceP}</h1>
             </div>
         </div>
     );
