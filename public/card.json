@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Espresso",
+        "price": "5.00",
+        "image": "https://alfanarcoffee.com.sa/images/hot/espresso.png",
+        "quantity": 3
+    },
+    {
+        "id": 2,
+        "name": "Espresso Mechiato",
+        "price": "4.50",
+        "image": "https://alfanarcoffee.com.sa/images/hot/Cappuccino.png",
+        "quantity": 2
+    },
+    {
+        "id": 3,
+        "name": "Espresso Con Panna",
+        "price": "5.20",
+        "image": "https://alfanarcoffee.com.sa/images/hot/Espresso%20Con%20Panna.png",
+        "quantity": 2
+    },
+    {
+        "id": 4,
+        "name": "Americano",
+        "price": "4.00",
+        "image": "https://alfanarcoffee.com.sa/images/hot/Americano.png",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Cappuccino",
+        "price": "3.00",
+        "image": "https://alfanarcoffee.com.sa/images/hot/Cappuccino1.png",
+        "quantity": 2
+    }
+]

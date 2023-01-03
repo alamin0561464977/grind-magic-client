@@ -8,7 +8,7 @@
 .Footer {
   background-image: url('https://cdn.shopify.com/s/files/1/0444/5873/7824/articles/Caffeine_and_Bodybuildng.jpg?v=1618406662');
   min-height: 100%;
-  min-width: 100vh;
+  /* min-width: 100vh; */
   background-repeat: no-repeat;
   background-size: cover;
 }

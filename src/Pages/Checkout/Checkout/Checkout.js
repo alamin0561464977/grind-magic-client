@@ -8,8 +8,8 @@ const Checkout = () => {
                 <p className=' text-lg text-amber-700'>HOME / CHECKOUT</p>
             </div>
             <div className=' container mx-auto my-14'>
-                <div className='m-12 p-12 border border-blue-300 rounded-xl'>
-                    <div className=' flex gap-5 items-center my-8'>
+                <div className='m-4 lg:12 p-12 border border-blue-300 rounded-xl'>
+                    <div className=' lg:flex gap-5 items-center my-8'>
                         <h1 className='text-2xl font-bold'>Payment Method</h1>
                         <div className="form-control">
                             <label className="label cursor-pointer">
@@ -31,7 +31,7 @@ const Checkout = () => {
                         </div>
                     </div><hr />
                     <div className=' my-8'>
-                        <div className=' flex gap-5'>
+                        <div className=' lg:flex gap-5'>
                             <div className="form-control w-full text-lg font-bold">
                                 <label className="label">
                                     <span className="">First Name</span>
@@ -75,7 +75,7 @@ const Checkout = () => {
                             </label>
                             <input type="text" placeholder="Type here" className="input input-bordered w-full" />
                         </div>
-                        <div className=' flex gap-5 my-3'>
+                        <div className=' lg:flex gap-5 my-3'>
                             <div className="form-control w-full text-lg font-bold">
                                 <label className="label">
                                     <span className="">Email</span>
@@ -97,15 +97,15 @@ const Checkout = () => {
                         </div>
                         <div className=' border border-blue-300 p-5 mt-8 rounded-xl text-center'>
                             <h1 className='text-2xl font-bold text-center'>Card Total</h1>
-                            <div className=' text-ellipsis font-bold my-3 p-2 w-1/2 mx-auto  border rounded flex justify-between'>
+                            <div className=' text-ellipsis font-bold my-3 p-2 w-1/2 mx-auto  border rounded lg:flex justify-between'>
                                 <h1>Sub Total</h1>
                                 <h1>$ 550.00</h1>
                             </div>
-                            <div className=' text-ellipsis font-bold my-3 p-2 w-1/2 mx-auto  border rounded flex justify-between'>
+                            <div className=' text-ellipsis font-bold my-3 p-2 w-1/2 mx-auto  border rounded lg:flex justify-between'>
                                 <h1>Total</h1>
                                 <h1>$ 600.00</h1>
                             </div>
-                            <button className='btn btn-outline btn-info font-bold btn-wide my-5'>Proceed to Checkout</button>
+                            <button className='btn btn-outline btn-info font-bold lg:btn-wide my-5'>Proceed to Checkout</button>
                         </div>
                     </div>
                 </div>

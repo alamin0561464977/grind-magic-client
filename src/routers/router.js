@@ -11,6 +11,7 @@ import GrindMagicMenu from "../Pages/GrindMagicMenu/GrindMagicMenu/GrindMagicMen
 import Home from "../Pages/HomePage/Home/Home";
 import Reservation from "../Pages/Reservation/Reservation";
 import Products from "../Pages/Shop/Products/Products";
+import ShopCard from "../Pages/ShopCard/ShopCard";
 import Story from "../Pages/Story/Story";
 
 export const router = createBrowserRouter([
@@ -65,6 +66,10 @@ export const router = createBrowserRouter([
             {
                 path: '/shop-checkout',
                 element: <Checkout></Checkout>
+            },
+            {
+                path: '/shop-card',
+                element: <ShopCard></ShopCard>
             },
         ]
     }
