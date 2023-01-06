@@ -20,6 +20,13 @@
   background-size: cover;
 }
 
+.Settings {
+  background-image: url('https://img.freepik.com/free-vector/setting-gear-vector-technology-icon-neon-purple-gradient-background_53876-112151.jpg?w=360');
+  /* min-height: 300px; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .OurChefBG1 {
   background-image: url('https://xpressrow.com/html/cafena/cafena/assets/images/team/team-1.jpeg');
   background-repeat: no-repeat;

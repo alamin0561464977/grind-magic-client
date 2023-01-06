@@ -1,11 +1,11 @@
-import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import { router } from './routers/router';
+import CardR from './Pages/CardR/CardR';
+import Settings from './Pages/Settings/Settings';
 
 function App() {
   return (
     <div className="">
-      <RouterProvider router={router}></RouterProvider>
+      <Settings></Settings>
     </div>
   );
 }
