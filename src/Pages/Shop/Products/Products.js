@@ -1,15 +1,22 @@
+import { useQuery } from '@tanstack/react-query';
 import React, { useEffect, useState } from 'react';
 import { FaAngleDown, FaListUl, FaTh } from "react-icons/fa";
 import ProductCard from './ProductCard';
 import ProductsR from './ProductsR';
 
 const Products = () => {
-    const [products, setProducts] = useState([]);
-    useEffect(() => {
-        fetch('products.json')
-            .then(res => res.json())
-            .then(data => setProducts(data))
-    }, [])
+    const { data: products, isLoading, refetch } = useQuery({
+        queryKey: ['buyers'],
+        queryFn: async () => {
+            const res = await fetch('https://grind-magic-server-alamin0561464977.vercel.app/products');
+            const data = res.json();
+            return data;
+        }
+    });
+    if (isLoading) {
+        return <h1>Loading...</h1>
+    }
+
     return (
         <div>
             <div className='AboutTopBanner mb-12 text-white lg:pl-14 lg:pt-28'>
@@ -35,7 +42,7 @@ const Products = () => {
             <div className='container mx-auto grid grid-cols-10 gap-5'>
                 <div className=' col-span-6 grid grid-cols-1 lg:grid-cols-2 gap-5'>
                     {
-                        products.map(product => <ProductCard key={product.id} product={product}></ProductCard>)
+                        products.map(product => <ProductCard key={product.id} product={product} className='bg-slate-800'></ProductCard>)
                     }
                 </div>
                 <div className=' col-span-4'>

@@ -14,6 +14,8 @@ import Reservation from "../Pages/Reservation/Reservation";
 import Products from "../Pages/Shop/Products/Products";
 import ShopCard from "../Pages/ShopCard/ShopCard";
 import Story from "../Pages/Story/Story";
+import SingUp from "../SingUp/SingUp";
+import PrivateRoute from "./PrivateRoute";
 
 export const router = createBrowserRouter([
     {
@@ -66,7 +68,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/shop-checkout',
-                element: <Checkout></Checkout>
+                element: <PrivateRoute><Checkout></Checkout></PrivateRoute>
             },
             {
                 path: '/shop-card',
@@ -75,6 +77,10 @@ export const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
+            },
+            {
+                path: '/sing-up',
+                element: <SingUp></SingUp>
             },
         ]
     }

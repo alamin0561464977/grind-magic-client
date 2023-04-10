@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-const CoffeeMenu = () => {
+const CoffeeMenu = ({ setCoffeeInfo }) => {
     const [coffeeItems, setCoffeeItems] = useState([]);
     useEffect(() => {
         fetch('menu.json')
             .then(res => res.json())
             .then(data => setCoffeeItems(data))
-    }, [])
+    }, []);
+
     return (
         <div className=' py-8'>
             <div className=' text-center mb-5'>
@@ -17,7 +18,12 @@ const CoffeeMenu = () => {
                 <div className="grid gap-8 row-gap-5 md:grid-cols-2">
                     {
                         coffeeItems.map(coffee =>
-                            <div key={coffee.id} className="relative p-px overflow-hidden transition duration-300 transform border border-zinc-800 rounded shadow-sm hover:scale-105 group hover:shadow-xl">
+                            <label
+                                htmlFor="OrderCoffeeModal"
+                                onClick={() => setCoffeeInfo(coffee)}
+                                key={coffee.id}
+                                className="relative p-px overflow-hidden transition duration-300 transform border border-zinc-800 rounded shadow-sm hover:scale-105 group hover:shadow-xl"
+                            >
                                 <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
                                 <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
                                 <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
@@ -39,7 +45,7 @@ const CoffeeMenu = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>)
+                            </label>)
                     }
                 </div>
             </div>

@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../contextAPI/userAPI/UserContext';
 
 const Navbar = () => {
+    const { user } = useContext(AuthContext);
     const navItems = <>
         <li><Link to='/'>HOME</Link></li>
         <li><Link to='/about'>ABOUT</Link></li>
         <li><Link to='/grind-magic-menu'>MENU</Link></li>
         <li><Link to='/reservation'>RESERVATION</Link></li>
+        <li><Link to='/contact-us'>CONTACT</Link></li>
+
     </>
     return (
         <div>
-            <div className="navbar h-32 border-b border-slate-800">
+            <div className="navbar h-32 border-b bg-slate-200 border-slate-800">
                 <div className="navbar-start lg:hidden">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -58,7 +62,7 @@ const Navbar = () => {
                         </li>
                         <li><Link to='/contact-us'>CONTACT</Link></li>
                     </ul>
-                    <ul className="menu gap-3 col-span-2 menu-horizontal flex-none font-bold text-lg px-2">
+                    <ul className="menu gap-3 col-span-2 menu-horizontal items-center flex-none font-bold text-lg px-2">
                         <button className="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
                         </button>
@@ -70,13 +74,17 @@ const Navbar = () => {
                                 </div>
                             </label>
                         </div>
-                        <label htmlFor="settings" tabIndex={0} className=" ml-5 hover:cursor-pointer">
-                            <div className="avatar online">
-                                <div className="w-12 rounded-full">
-                                    <img src="https://placeimg.com/192/192/people" />
+                        {user?.uid ?
+                            <label htmlFor="settings" tabIndex={0} className=" ml-5 hover:cursor-pointer">
+                                <div className="avatar online">
+                                    <div className="w-12 rounded-full">
+                                        <img src={user?.photoURL} alt='' />
+                                    </div>
                                 </div>
-                            </div>
-                        </label>
+                            </label>
+                            :
+                            <Link to='/login' className=' text-xl font-bold hover:text-blue-500'>Login</Link>
+                        }
                     </ul>
                 </div>
             </div>
